@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DB0E968840DB0115D63AA0 /* Pods_ChoppedUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9A498CDF12A0C1D7379657 /* Pods_ChoppedUpUITests.framework */; };
+		0AEE9949EB33D364417EA55C /* Pods_ChoppedUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A184F4DE37070771681F951A /* Pods_ChoppedUpTests.framework */; };
+		4CD005D40E21EE3B313D96E6 /* Pods_ChoppedUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759AD39B81E972F52003C7A7 /* Pods_ChoppedUp.framework */; };
 		BD147C1C1DF9683600D5D0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C1B1DF9683600D5D0E4 /* AppDelegate.swift */; };
-		BD147C1E1DF9683600D5D0E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD147C1D1DF9683600D5D0E4 /* GameScene.sks */; };
-		BD147C201DF9683600D5D0E4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD147C1F1DF9683600D5D0E4 /* Actions.sks */; };
 		BD147C221DF9683600D5D0E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C211DF9683600D5D0E4 /* GameScene.swift */; };
 		BD147C241DF9683700D5D0E4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C231DF9683700D5D0E4 /* GameViewController.swift */; };
 		BD147C271DF9683700D5D0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD147C251DF9683700D5D0E4 /* Main.storyboard */; };
@@ -17,6 +18,39 @@
 		BD147C2C1DF9683700D5D0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD147C2A1DF9683700D5D0E4 /* LaunchScreen.storyboard */; };
 		BD147C371DF9683700D5D0E4 /* ChoppedUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C361DF9683700D5D0E4 /* ChoppedUpTests.swift */; };
 		BD147C421DF9683700D5D0E4 /* ChoppedUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C411DF9683700D5D0E4 /* ChoppedUpUITests.swift */; };
+		BD147C501DF9693D00D5D0E4 /* ContentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C4F1DF9693D00D5D0E4 /* ContentGenerator.swift */; };
+		BD147C521DF9809300D5D0E4 /* WordNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147C511DF9809300D5D0E4 /* WordNode.swift */; };
+		BD147C541DF983FA00D5D0E4 /* Shine.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD147C531DF983FA00D5D0E4 /* Shine.sks */; };
+		BD21D64A1DFAD14C007127F8 /* HighScoreNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21D6491DFAD14C007127F8 /* HighScoreNode.swift */; };
+		BD21D64C1DFAD2A3007127F8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21D64B1DFAD2A3007127F8 /* Extensions.swift */; };
+		BDA755411DFA9250007D64E9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA755401DFA9250007D64E9 /* SoundPlayer.swift */; };
+		BDA7555A1DFA94F1007D64E9 /* falloutZoneSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755451DFA94F1007D64E9 /* falloutZoneSound.wav */; };
+		BDA7555B1DFA94F1007D64E9 /* freezeBlocks.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755461DFA94F1007D64E9 /* freezeBlocks.wav */; };
+		BDA7555C1DFA94F1007D64E9 /* glossy_click_14.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755471DFA94F1007D64E9 /* glossy_click_14.wav */; };
+		BDA7555D1DFA94F1007D64E9 /* glossy_click_25.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755481DFA94F1007D64E9 /* glossy_click_25.wav */; };
+		BDA7555E1DFA94F1007D64E9 /* glossy_click_33.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755491DFA94F1007D64E9 /* glossy_click_33.wav */; };
+		BDA7555F1DFA94F1007D64E9 /* glossy_interface_05.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA7554A1DFA94F1007D64E9 /* glossy_interface_05.wav */; };
+		BDA755601DFA94F1007D64E9 /* glossy_interface_36.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA7554B1DFA94F1007D64E9 /* glossy_interface_36.wav */; };
+		BDA755611DFA94F1007D64E9 /* glossy_success_17.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA7554C1DFA94F1007D64E9 /* glossy_success_17.wav */; };
+		BDA755621DFA94F1007D64E9 /* LetterBlockShineSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA7554D1DFA94F1007D64E9 /* LetterBlockShineSound.wav */; };
+		BDA755631DFA94F1007D64E9 /* magnetizeSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA7554E1DFA94F1007D64E9 /* magnetizeSound.wav */; };
+		BDA755641DFA94F1007D64E9 /* magnetizeSoundAttracted.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA7554F1DFA94F1007D64E9 /* magnetizeSoundAttracted.wav */; };
+		BDA755651DFA94F1007D64E9 /* PowerUpHideSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755501DFA94F1007D64E9 /* PowerUpHideSound.wav */; };
+		BDA755661DFA94F1007D64E9 /* powerUpMenuToggleSmoothRollerOver19.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755511DFA94F1007D64E9 /* powerUpMenuToggleSmoothRollerOver19.wav */; };
+		BDA755671DFA94F1007D64E9 /* powerUpSelected.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755521DFA94F1007D64E9 /* powerUpSelected.wav */; };
+		BDA755681DFA94F1007D64E9 /* score_counter_07.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755531DFA94F1007D64E9 /* score_counter_07.wav */; };
+		BDA755691DFA94F1007D64E9 /* shimmer_accent_48.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755541DFA94F1007D64E9 /* shimmer_accent_48.wav */; };
+		BDA7556A1DFA94F1007D64E9 /* shimmer_accent_48_modified.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755551DFA94F1007D64E9 /* shimmer_accent_48_modified.wav */; };
+		BDA7556B1DFA94F1007D64E9 /* smooth_button_click11.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755561DFA94F1007D64E9 /* smooth_button_click11.wav */; };
+		BDA7556C1DFA94F1007D64E9 /* success_sound_exploding_glass_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755571DFA94F1007D64E9 /* success_sound_exploding_glass_01.wav */; };
+		BDA7556D1DFA94F1007D64E9 /* Swish_1 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755581DFA94F1007D64E9 /* Swish_1 2.wav */; };
+		BDA7556E1DFA94F1007D64E9 /* Swish_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA755591DFA94F1007D64E9 /* Swish_1.wav */; };
+		BDA755701DFA9783007D64E9 /* MagicEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA7556F1DFA9783007D64E9 /* MagicEffect.sks */; };
+		BDA755721DFA97C1007D64E9 /* SparkEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA755711DFA97C1007D64E9 /* SparkEffect.sks */; };
+		BDA755741DFAB1AC007D64E9 /* ScoreNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA755731DFAB1AC007D64E9 /* ScoreNode.swift */; };
+		BDA755761DFAB370007D64E9 /* StarEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDA755751DFAB370007D64E9 /* StarEffect.sks */; };
+		BDA755781DFACB2F007D64E9 /* AnswerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA755771DFACB2F007D64E9 /* AnswerNode.swift */; };
+		BDA7557A1DFACEAD007D64E9 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA755791DFACEAD007D64E9 /* NetworkHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +71,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AB7A57C760C5950D6BA609 /* Pods-ChoppedUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppedUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppedUp/Pods-ChoppedUp.debug.xcconfig"; sourceTree = "<group>"; };
+		1D9A498CDF12A0C1D7379657 /* Pods_ChoppedUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoppedUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34037ACF68CA173CDDBB6A4B /* Pods-ChoppedUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppedUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppedUp/Pods-ChoppedUp.release.xcconfig"; sourceTree = "<group>"; };
+		4D89993A5956955F5864F72F /* Pods-ChoppedUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppedUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppedUpUITests/Pods-ChoppedUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		759AD39B81E972F52003C7A7 /* Pods_ChoppedUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoppedUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A4A226C6D9C271C565085E /* Pods-ChoppedUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppedUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppedUpTests/Pods-ChoppedUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4FF33041C65C7232CDD406 /* Pods-ChoppedUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppedUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppedUpUITests/Pods-ChoppedUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		915C282A9B80F3CB6DD1E713 /* Pods-ChoppedUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoppedUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoppedUpTests/Pods-ChoppedUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		A184F4DE37070771681F951A /* Pods_ChoppedUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoppedUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD147C181DF9683600D5D0E4 /* ChoppedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoppedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD147C1B1DF9683600D5D0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD147C1D1DF9683600D5D0E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BD147C1F1DF9683600D5D0E4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BD147C211DF9683600D5D0E4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BD147C231DF9683700D5D0E4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BD147C261DF9683700D5D0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +94,39 @@
 		BD147C3D1DF9683700D5D0E4 /* ChoppedUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoppedUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD147C411DF9683700D5D0E4 /* ChoppedUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoppedUpUITests.swift; sourceTree = "<group>"; };
 		BD147C431DF9683700D5D0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD147C4F1DF9693D00D5D0E4 /* ContentGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentGenerator.swift; sourceTree = "<group>"; };
+		BD147C511DF9809300D5D0E4 /* WordNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordNode.swift; sourceTree = "<group>"; };
+		BD147C531DF983FA00D5D0E4 /* Shine.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Shine.sks; sourceTree = "<group>"; };
+		BD21D6491DFAD14C007127F8 /* HighScoreNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreNode.swift; sourceTree = "<group>"; };
+		BD21D64B1DFAD2A3007127F8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BDA755401DFA9250007D64E9 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		BDA755451DFA94F1007D64E9 /* falloutZoneSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falloutZoneSound.wav; sourceTree = "<group>"; };
+		BDA755461DFA94F1007D64E9 /* freezeBlocks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = freezeBlocks.wav; sourceTree = "<group>"; };
+		BDA755471DFA94F1007D64E9 /* glossy_click_14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glossy_click_14.wav; sourceTree = "<group>"; };
+		BDA755481DFA94F1007D64E9 /* glossy_click_25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glossy_click_25.wav; sourceTree = "<group>"; };
+		BDA755491DFA94F1007D64E9 /* glossy_click_33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glossy_click_33.wav; sourceTree = "<group>"; };
+		BDA7554A1DFA94F1007D64E9 /* glossy_interface_05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glossy_interface_05.wav; sourceTree = "<group>"; };
+		BDA7554B1DFA94F1007D64E9 /* glossy_interface_36.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glossy_interface_36.wav; sourceTree = "<group>"; };
+		BDA7554C1DFA94F1007D64E9 /* glossy_success_17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glossy_success_17.wav; sourceTree = "<group>"; };
+		BDA7554D1DFA94F1007D64E9 /* LetterBlockShineSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LetterBlockShineSound.wav; sourceTree = "<group>"; };
+		BDA7554E1DFA94F1007D64E9 /* magnetizeSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = magnetizeSound.wav; sourceTree = "<group>"; };
+		BDA7554F1DFA94F1007D64E9 /* magnetizeSoundAttracted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = magnetizeSoundAttracted.wav; sourceTree = "<group>"; };
+		BDA755501DFA94F1007D64E9 /* PowerUpHideSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PowerUpHideSound.wav; sourceTree = "<group>"; };
+		BDA755511DFA94F1007D64E9 /* powerUpMenuToggleSmoothRollerOver19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = powerUpMenuToggleSmoothRollerOver19.wav; sourceTree = "<group>"; };
+		BDA755521DFA94F1007D64E9 /* powerUpSelected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = powerUpSelected.wav; sourceTree = "<group>"; };
+		BDA755531DFA94F1007D64E9 /* score_counter_07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score_counter_07.wav; sourceTree = "<group>"; };
+		BDA755541DFA94F1007D64E9 /* shimmer_accent_48.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shimmer_accent_48.wav; sourceTree = "<group>"; };
+		BDA755551DFA94F1007D64E9 /* shimmer_accent_48_modified.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shimmer_accent_48_modified.wav; sourceTree = "<group>"; };
+		BDA755561DFA94F1007D64E9 /* smooth_button_click11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smooth_button_click11.wav; sourceTree = "<group>"; };
+		BDA755571DFA94F1007D64E9 /* success_sound_exploding_glass_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success_sound_exploding_glass_01.wav; sourceTree = "<group>"; };
+		BDA755581DFA94F1007D64E9 /* Swish_1 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Swish_1 2.wav"; sourceTree = "<group>"; };
+		BDA755591DFA94F1007D64E9 /* Swish_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Swish_1.wav; sourceTree = "<group>"; };
+		BDA7556F1DFA9783007D64E9 /* MagicEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicEffect.sks; sourceTree = "<group>"; };
+		BDA755711DFA97C1007D64E9 /* SparkEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkEffect.sks; sourceTree = "<group>"; };
+		BDA755731DFAB1AC007D64E9 /* ScoreNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreNode.swift; sourceTree = "<group>"; };
+		BDA755751DFAB370007D64E9 /* StarEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarEffect.sks; sourceTree = "<group>"; };
+		BDA755771DFACB2F007D64E9 /* AnswerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerNode.swift; sourceTree = "<group>"; };
+		BDA755791DFACEAD007D64E9 /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD005D40E21EE3B313D96E6 /* Pods_ChoppedUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEE9949EB33D364417EA55C /* Pods_ChoppedUpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +150,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DB0E968840DB0115D63AA0 /* Pods_ChoppedUpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090ADB2983A8D894E13DCDB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05AB7A57C760C5950D6BA609 /* Pods-ChoppedUp.debug.xcconfig */,
+				34037ACF68CA173CDDBB6A4B /* Pods-ChoppedUp.release.xcconfig */,
+				86A4A226C6D9C271C565085E /* Pods-ChoppedUpTests.debug.xcconfig */,
+				915C282A9B80F3CB6DD1E713 /* Pods-ChoppedUpTests.release.xcconfig */,
+				4D89993A5956955F5864F72F /* Pods-ChoppedUpUITests.debug.xcconfig */,
+				8D4FF33041C65C7232CDD406 /* Pods-ChoppedUpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F440BC6A067F7603AB1C6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				759AD39B81E972F52003C7A7 /* Pods_ChoppedUp.framework */,
+				A184F4DE37070771681F951A /* Pods_ChoppedUpTests.framework */,
+				1D9A498CDF12A0C1D7379657 /* Pods_ChoppedUpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD147C0F1DF9683600D5D0E4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +187,8 @@
 				BD147C351DF9683700D5D0E4 /* ChoppedUpTests */,
 				BD147C401DF9683700D5D0E4 /* ChoppedUpUITests */,
 				BD147C191DF9683600D5D0E4 /* Products */,
+				090ADB2983A8D894E13DCDB4 /* Pods */,
+				4F440BC6A067F7603AB1C6A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +206,23 @@
 			isa = PBXGroup;
 			children = (
 				BD147C1B1DF9683600D5D0E4 /* AppDelegate.swift */,
-				BD147C1D1DF9683600D5D0E4 /* GameScene.sks */,
-				BD147C1F1DF9683600D5D0E4 /* Actions.sks */,
 				BD147C211DF9683600D5D0E4 /* GameScene.swift */,
+				BDA7556F1DFA9783007D64E9 /* MagicEffect.sks */,
+				BDA755711DFA97C1007D64E9 /* SparkEffect.sks */,
+				BDA755751DFAB370007D64E9 /* StarEffect.sks */,
+				BDA755401DFA9250007D64E9 /* SoundPlayer.swift */,
+				BD147C531DF983FA00D5D0E4 /* Shine.sks */,
+				BD147C511DF9809300D5D0E4 /* WordNode.swift */,
+				BDA755731DFAB1AC007D64E9 /* ScoreNode.swift */,
+				BD21D6491DFAD14C007127F8 /* HighScoreNode.swift */,
+				BD21D64B1DFAD2A3007127F8 /* Extensions.swift */,
+				BDA755771DFACB2F007D64E9 /* AnswerNode.swift */,
+				BDA755791DFACEAD007D64E9 /* NetworkHandler.swift */,
+				BD147C4F1DF9693D00D5D0E4 /* ContentGenerator.swift */,
 				BD147C231DF9683700D5D0E4 /* GameViewController.swift */,
 				BD147C251DF9683700D5D0E4 /* Main.storyboard */,
 				BD147C281DF9683700D5D0E4 /* Assets.xcassets */,
+				BDA755441DFA94F1007D64E9 /* Sound */,
 				BD147C2A1DF9683700D5D0E4 /* LaunchScreen.storyboard */,
 				BD147C2D1DF9683700D5D0E4 /* Info.plist */,
 			);
@@ -134,6 +247,35 @@
 			path = ChoppedUpUITests;
 			sourceTree = "<group>";
 		};
+		BDA755441DFA94F1007D64E9 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BDA755451DFA94F1007D64E9 /* falloutZoneSound.wav */,
+				BDA755461DFA94F1007D64E9 /* freezeBlocks.wav */,
+				BDA755471DFA94F1007D64E9 /* glossy_click_14.wav */,
+				BDA755481DFA94F1007D64E9 /* glossy_click_25.wav */,
+				BDA755491DFA94F1007D64E9 /* glossy_click_33.wav */,
+				BDA7554A1DFA94F1007D64E9 /* glossy_interface_05.wav */,
+				BDA7554B1DFA94F1007D64E9 /* glossy_interface_36.wav */,
+				BDA7554C1DFA94F1007D64E9 /* glossy_success_17.wav */,
+				BDA7554D1DFA94F1007D64E9 /* LetterBlockShineSound.wav */,
+				BDA7554E1DFA94F1007D64E9 /* magnetizeSound.wav */,
+				BDA7554F1DFA94F1007D64E9 /* magnetizeSoundAttracted.wav */,
+				BDA755501DFA94F1007D64E9 /* PowerUpHideSound.wav */,
+				BDA755511DFA94F1007D64E9 /* powerUpMenuToggleSmoothRollerOver19.wav */,
+				BDA755521DFA94F1007D64E9 /* powerUpSelected.wav */,
+				BDA755531DFA94F1007D64E9 /* score_counter_07.wav */,
+				BDA755541DFA94F1007D64E9 /* shimmer_accent_48.wav */,
+				BDA755551DFA94F1007D64E9 /* shimmer_accent_48_modified.wav */,
+				BDA755561DFA94F1007D64E9 /* smooth_button_click11.wav */,
+				BDA755571DFA94F1007D64E9 /* success_sound_exploding_glass_01.wav */,
+				BDA755581DFA94F1007D64E9 /* Swish_1 2.wav */,
+				BDA755591DFA94F1007D64E9 /* Swish_1.wav */,
+			);
+			name = Sound;
+			path = Assets/Sound;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD147C461DF9683700D5D0E4 /* Build configuration list for PBXNativeTarget "ChoppedUp" */;
 			buildPhases = (
+				3BD11A667D1C74AB26781052 /* [CP] Check Pods Manifest.lock */,
 				BD147C141DF9683600D5D0E4 /* Sources */,
 				BD147C151DF9683600D5D0E4 /* Frameworks */,
 				BD147C161DF9683600D5D0E4 /* Resources */,
+				EC5075F8A90FD1C6137C3C3B /* [CP] Embed Pods Frameworks */,
+				D1D1DABFDF2343349F5CA79B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD147C491DF9683700D5D0E4 /* Build configuration list for PBXNativeTarget "ChoppedUpTests" */;
 			buildPhases = (
+				21825A636CFEAFA8089B80F2 /* [CP] Check Pods Manifest.lock */,
 				BD147C2E1DF9683700D5D0E4 /* Sources */,
 				BD147C2F1DF9683700D5D0E4 /* Frameworks */,
 				BD147C301DF9683700D5D0E4 /* Resources */,
+				FCA8C16D1661C5D3AEAE74FD /* [CP] Embed Pods Frameworks */,
+				84C2570257883A166D08F0C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD147C4C1DF9683700D5D0E4 /* Build configuration list for PBXNativeTarget "ChoppedUpUITests" */;
 			buildPhases = (
+				C44DC8F7C8ED39C141556355 /* [CP] Check Pods Manifest.lock */,
 				BD147C391DF9683700D5D0E4 /* Sources */,
 				BD147C3A1DF9683700D5D0E4 /* Frameworks */,
 				BD147C3B1DF9683700D5D0E4 /* Resources */,
+				F1F95BAD23EB6C13C7ED8CC3 /* [CP] Embed Pods Frameworks */,
+				C5B4C0C99F8DEF2D4FACC81D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,7 +353,7 @@
 				TargetAttributes = {
 					BD147C171DF9683600D5D0E4 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 4YX6VVHBA4;
+						DevelopmentTeam = LL5VD7A6EU;
 						ProvisioningStyle = Automatic;
 					};
 					BD147C311DF9683700D5D0E4 = {
@@ -245,10 +396,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD147C271DF9683700D5D0E4 /* Main.storyboard in Resources */,
-				BD147C1E1DF9683600D5D0E4 /* GameScene.sks in Resources */,
+				BDA7556D1DFA94F1007D64E9 /* Swish_1 2.wav in Resources */,
+				BDA755701DFA9783007D64E9 /* MagicEffect.sks in Resources */,
+				BDA755611DFA94F1007D64E9 /* glossy_success_17.wav in Resources */,
+				BDA755761DFAB370007D64E9 /* StarEffect.sks in Resources */,
 				BD147C291DF9683700D5D0E4 /* Assets.xcassets in Resources */,
+				BDA7555F1DFA94F1007D64E9 /* glossy_interface_05.wav in Resources */,
+				BDA755641DFA94F1007D64E9 /* magnetizeSoundAttracted.wav in Resources */,
+				BDA755651DFA94F1007D64E9 /* PowerUpHideSound.wav in Resources */,
+				BDA755691DFA94F1007D64E9 /* shimmer_accent_48.wav in Resources */,
 				BD147C2C1DF9683700D5D0E4 /* LaunchScreen.storyboard in Resources */,
-				BD147C201DF9683600D5D0E4 /* Actions.sks in Resources */,
+				BDA755721DFA97C1007D64E9 /* SparkEffect.sks in Resources */,
+				BDA7556E1DFA94F1007D64E9 /* Swish_1.wav in Resources */,
+				BDA7555D1DFA94F1007D64E9 /* glossy_click_25.wav in Resources */,
+				BDA755681DFA94F1007D64E9 /* score_counter_07.wav in Resources */,
+				BDA755661DFA94F1007D64E9 /* powerUpMenuToggleSmoothRollerOver19.wav in Resources */,
+				BDA7555E1DFA94F1007D64E9 /* glossy_click_33.wav in Resources */,
+				BDA755631DFA94F1007D64E9 /* magnetizeSound.wav in Resources */,
+				BDA755601DFA94F1007D64E9 /* glossy_interface_36.wav in Resources */,
+				BDA7556C1DFA94F1007D64E9 /* success_sound_exploding_glass_01.wav in Resources */,
+				BDA755671DFA94F1007D64E9 /* powerUpSelected.wav in Resources */,
+				BDA7556B1DFA94F1007D64E9 /* smooth_button_click11.wav in Resources */,
+				BDA7556A1DFA94F1007D64E9 /* shimmer_accent_48_modified.wav in Resources */,
+				BDA755621DFA94F1007D64E9 /* LetterBlockShineSound.wav in Resources */,
+				BDA7555B1DFA94F1007D64E9 /* freezeBlocks.wav in Resources */,
+				BDA7555C1DFA94F1007D64E9 /* glossy_click_14.wav in Resources */,
+				BD147C541DF983FA00D5D0E4 /* Shine.sks in Resources */,
+				BDA7555A1DFA94F1007D64E9 /* falloutZoneSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +442,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21825A636CFEAFA8089B80F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD11A667D1C74AB26781052 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84C2570257883A166D08F0C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppedUpTests/Pods-ChoppedUpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44DC8F7C8ED39C141556355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B4C0C99F8DEF2D4FACC81D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppedUpUITests/Pods-ChoppedUpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D1DABFDF2343349F5CA79B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppedUp/Pods-ChoppedUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5075F8A90FD1C6137C3C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppedUp/Pods-ChoppedUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F95BAD23EB6C13C7ED8CC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppedUpUITests/Pods-ChoppedUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA8C16D1661C5D3AEAE74FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoppedUpTests/Pods-ChoppedUpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD147C141DF9683600D5D0E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD147C521DF9809300D5D0E4 /* WordNode.swift in Sources */,
+				BDA755781DFACB2F007D64E9 /* AnswerNode.swift in Sources */,
+				BD21D64A1DFAD14C007127F8 /* HighScoreNode.swift in Sources */,
 				BD147C221DF9683600D5D0E4 /* GameScene.swift in Sources */,
 				BD147C241DF9683700D5D0E4 /* GameViewController.swift in Sources */,
 				BD147C1C1DF9683600D5D0E4 /* AppDelegate.swift in Sources */,
+				BDA755411DFA9250007D64E9 /* SoundPlayer.swift in Sources */,
+				BD147C501DF9693D00D5D0E4 /* ContentGenerator.swift in Sources */,
+				BDA755741DFAB1AC007D64E9 /* ScoreNode.swift in Sources */,
+				BD21D64C1DFAD2A3007127F8 /* Extensions.swift in Sources */,
+				BDA7557A1DFACEAD007D64E9 /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +745,13 @@
 		};
 		BD147C471DF9683700D5D0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AB7A57C760C5950D6BA609 /* Pods-ChoppedUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4YX6VVHBA4;
+				DEVELOPMENT_TEAM = LL5VD7A6EU;
 				INFOPLIST_FILE = ChoppedUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.feomedia..ChoppedUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henriklarsson..ChoppedUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -438,12 +759,13 @@
 		};
 		BD147C481DF9683700D5D0E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34037ACF68CA173CDDBB6A4B /* Pods-ChoppedUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4YX6VVHBA4;
+				DEVELOPMENT_TEAM = LL5VD7A6EU;
 				INFOPLIST_FILE = ChoppedUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.feomedia..ChoppedUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.henriklarsson..ChoppedUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -451,6 +773,7 @@
 		};
 		BD147C4A1DF9683700D5D0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A4A226C6D9C271C565085E /* Pods-ChoppedUpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +789,7 @@
 		};
 		BD147C4B1DF9683700D5D0E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915C282A9B80F3CB6DD1E713 /* Pods-ChoppedUpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +805,7 @@
 		};
 		BD147C4D1DF9683700D5D0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D89993A5956955F5864F72F /* Pods-ChoppedUpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4YX6VVHBA4;
@@ -495,6 +820,7 @@
 		};
 		BD147C4E1DF9683700D5D0E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4FF33041C65C7232CDD406 /* Pods-ChoppedUpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4YX6VVHBA4;
@@ -526,6 +852,7 @@
 				BD147C481DF9683700D5D0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD147C491DF9683700D5D0E4 /* Build configuration list for PBXNativeTarget "ChoppedUpTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +861,7 @@
 				BD147C4B1DF9683700D5D0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD147C4C1DF9683700D5D0E4 /* Build configuration list for PBXNativeTarget "ChoppedUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +870,7 @@
 				BD147C4E1DF9683700D5D0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

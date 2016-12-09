@@ -7,14 +7,29 @@
 //
 
 import Foundation
+import Alamofire
+import SwiftyJSON
 
 
 class ContentGenerator {
     
-    let answersAndQuestions = ["Barack Obama" : "Who is the current president of the united states ?", "Mount Everest" : "What is the highest mountain in the world ?", "Israel" : "Where can you find the wailing wall ?", "1492" : "When did Columbus 'discover' the American continent ?", "384,400 km" : "How far away from earth is the moon ?"]
+    var answersAndQuestions = ["Barack Obama" : "who is the current president of the united states ?", "Mount Everest" : "what is the highest mountain in the world ?", "Israel" : "where can you find the wailing wall ?", "1492" : "when did Columbus 'discover' the American continent ?", "384,400 km" : "how far away is the moon ?", "Thomas Edison" : "who invented the incadescent lightbulb ?", "what is the capital of Vietnam" : "Hanoi"]
     
+    func getAnswersAndQuestions(completion: @escaping () -> Void) {
+        _ = NetworkHandler.sharedInstance.getTasks() { (tasks, errorJson) in
+            if let tasks = tasks {
+                self.answersAndQuestions = tasks
+                print(self.answersAndQuestions)
+                completion()
+            } else if errorJson == nil {
+                print("Couldn't get tasks from server. Using hardcoded quizziwizzies")
+            }
+        }
+        
+    }
+
     
-    func prepareTask() -> (String, [QuestionWord]) {
+    func prepareTask() -> Task {
         
         let keyArray = Array(answersAndQuestions.keys)
         
@@ -32,12 +47,10 @@ class ContentGenerator {
         }
         var questionWordsArray = [QuestionWord]()
         
-        
         for i in 0..<questionStringArray.count {
             let questionWord = QuestionWord(word: (questionStringArray[i]))
             questionWordsArray.append(questionWord)
         }
-        
         
         for i in 0..<questionStringArray.count {
             for questionWord in questionWordsArray {
@@ -47,12 +60,23 @@ class ContentGenerator {
             }
         }
         
-        return (question!, questionWordsArray)
+        let task = Task(answer: answer, questionWordsArray: questionWordsArray)
+        
+        return task
     }
     
 }
 
 
+class Task {
+    var answer: String!
+    var questionWordsArray: [QuestionWord]!
+
+    init(answer: String, questionWordsArray: [QuestionWord]) {
+        self.answer = answer
+        self.questionWordsArray = questionWordsArray
+    }
+}
 
 class QuestionWord {
     
