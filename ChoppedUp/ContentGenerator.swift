@@ -21,8 +21,9 @@ class ContentGenerator {
                 self.answersAndQuestions = tasks
                 print(self.answersAndQuestions)
                 completion()
-            } else if errorJson == nil {
+            } else {
                 print("Couldn't get tasks from server. Using hardcoded quizziwizzies")
+                completion()
             }
         }
         
