@@ -13,7 +13,7 @@ import SwiftyJSON
 
 class ContentGenerator {
     
-    var answersAndQuestions = ["Barack Obama" : "who is the current president of the united states ?", "Mount Everest" : "what is the highest mountain in the world ?", "Israel" : "where can you find the wailing wall ?", "1492" : "when did Columbus 'discover' the American continent ?", "384,400 km" : "how far away is the moon ?", "Thomas Edison" : "who invented the incadescent lightbulb ?", "what is the capital of Vietnam" : "Hanoi"]
+    var answersAndQuestions = ["Barack Obama" : "who is the current president of the united states ?", "Mount Everest" : "what is the highest mountain in the world ?", "Israel" : "where can you find the wailing wall ?", "1492" : "when did Columbus 'discover' the American continent ?", "384,400 km" : "how far away is the moon ?", "Thomas Edison" : "who invented the incadescent lightbulb ?", "Hanoi" : "what is the capital of Vietnam ?"]
     
     func getAnswersAndQuestions(completion: @escaping () -> Void) {
         _ = NetworkHandler.sharedInstance.getTasks() { (tasks, errorJson) in
