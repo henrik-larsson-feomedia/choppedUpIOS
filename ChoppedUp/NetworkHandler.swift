@@ -38,7 +38,7 @@ class Router: URLRequestConvertible, APIConfiguration {
     
     
     var baseURL: URL {
-        return URL(fileURLWithPath: "http://89f7403b.ngrok.io/")
+        return URL(fileURLWithPath: "https://chopped-up.feomedia.se/")
     }
 
 
